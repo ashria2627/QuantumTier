@@ -1,0 +1,57 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+
+}
+.bg_footer{
+  background-image: url("https://i.pinimg.com/736x/02/55/a3/0255a350fbe94a659cf8908296a8824c.jpg");
+ 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg_home{
+  background-image: url("https://nthdegree.co.uk/cdn/shop/files/Camera_6_Sun_loungers_Dining_set_Final_300dpi.jpg?v=1721987624&width=900");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* Add this to your CSS file */
+.animate {
+  animation: animate 3s ease-out  ; 
+}
+
+@keyframes animate {
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+  }
+  to {
+    transform: scale(1.2);
+    transform-origin: center center;
+  }
+}
+.zoom:hover {
+  animation: animate 3s ease-out;
+}
+
+.yeseva{
+  font-family: "Elsie", serif;
+
+}
+
+.josefin {
+  font-family: "Jost", serif;
+
+}
+.bg_foot{
+background-color: #cdbeaabc;
+color: #471b0f;
+}
+.bg_products{background-image: url("https://plus.unsplash.com/premium_photo-1665311515452-a9f54c4266c9?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+   object-position: center; object-fit: cover;
+
+}
